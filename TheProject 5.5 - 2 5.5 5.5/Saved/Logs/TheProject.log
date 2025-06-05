@@ -2563,3 +2563,571 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.06.04-22.07.09:069][128]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1362.880005
 [2025.06.04-22.07.10:069][131]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.06.04-22.07.10:069][131]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1363.546753, Update Interval: 301.873230
+[2025.06.04-22.09.13:277][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.06.04-22.09.17:808][766]LogTurnkeySupport: Project does not require temp target
+[2025.06.04-22.09.17:814][766]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame.target
+[2025.06.04-22.09.17:845][766]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=56199  -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Build" -clientconfig=Development" -nocompile -nocompileuat ]
+[2025.06.04-22.09.17:930][769]UATHelper: Packaging (Windows): Running AutomationTool...
+[2025.06.04-22.09.18:007][770]UATHelper: Packaging (Windows): Using bundled DotNet SDK version: 8.0.300
+[2025.06.04-22.09.18:204][779]UATHelper: Packaging (Windows): Starting AutomationTool...
+[2025.06.04-22.09.18:226][780]UATHelper: Packaging (Windows): Parsing command line: -ScriptsForProject="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=56199 -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" -unrealexe="C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Build" -clientconfig=Development -nocompile -nocompileuat
+[2025.06.04-22.09.18:456][791]UATHelper: Packaging (Windows): Initializing script modules...
+[2025.06.04-22.09.18:862][813]UATHelper: Packaging (Windows): Total script module initialization time: 0.41 s.
+[2025.06.04-22.09.18:928][816]UATHelper: Packaging (Windows): Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2025.06.04-22.09.19:256][833]UATHelper: Packaging (Windows): Executing commands...
+[2025.06.04-22.09.19:354][838]UATHelper: Packaging (Windows): Installed Sdk validity:
+[2025.06.04-22.09.19:354][838]UATHelper: Packaging (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.06.04-22.09.19:354][838]UATHelper: Packaging (Windows): Scanning for envvar changes...
+[2025.06.04-22.09.19:354][838]UATHelper: Packaging (Windows): ... done! 
+[2025.06.04-22.09.19:354][838]UATHelper: Packaging (Windows): Cleaning Temp Paths...
+[2025.06.04-22.09.19:354][838]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.06.04-22.09.19:364][839]UATHelper: Packaging (Windows): Setting up ProjectParams for C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject
+[2025.06.04-22.09.20:054][875]UATHelper: Packaging (Windows): ********** COOK COMMAND STARTED **********
+[2025.06.04-22.09.20:054][875]UATHelper: Packaging (Windows): Running UnrealEditor Cook for project C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject
+[2025.06.04-22.09.20:054][875]UATHelper: Packaging (Windows): Commandlet log file is C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.06.05-00.09.20.txt
+[2025.06.04-22.09.20:076][877]UATHelper: Packaging (Windows): Running: C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.06.05-00.09.20.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2025.06.04-22.09.21:939][974]UATHelper: Packaging (Windows): LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": El parámetro no es correcto.
+[2025.06.04-22.09.21:939][974]UATHelper: Packaging (Windows): LogInit: Display: Running engine for game: TheProject
+[2025.06.04-22.09.21:939][974]UATHelper: Packaging (Windows): LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2025.06.04-22.09.21:939][974]UATHelper: Packaging (Windows): LogTrace: Display: Display Control listening on port 1985
+[2025.06.04-22.09.21:939][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2025.06.04-22.09.21:939][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : config="Development"
+[2025.06.04-22.09.21:940][974]PackagingResults: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": El parámetro no es correcto.
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-40574608"
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-40574608+++UE5+Release-5.5"
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.5854] "
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz"
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : asan="0"
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject" -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.06.05-00.09.20.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2025.06.04-22.09.21:950][974]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : loginid="7c6a082048c79b2505a854a6d0b8717b"
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : llm="0"
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading Android ini files took 0.07 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading IOS ini files took 0.07 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache read as 36.5 MiB from ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/CachedAssetRegistry_0.bin
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading LinuxArm64 ini files took 0.11 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading Linux ini files took 0.11 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading Mac ini files took 0.06 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading TVOS ini files took 0.08 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading VulkanPC ini files took 0.06 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading Unix ini files took 0.07 seconds
+[2025.06.04-22.09.22:540][  5]UATHelper: Packaging (Windows): LogConfig: Display: Loading Windows ini files took 0.07 seconds
+[2025.06.04-22.09.23:087][ 34]UATHelper: Packaging (Windows): LogConfig: Display: Loading VisionOS ini files took 0.06 seconds
+[2025.06.04-22.09.23:273][ 43]UATHelper: Packaging (Windows): LogStudioTelemetry: Display: Starting StudioTelemetry Module
+[2025.06.04-22.09.23:700][ 66]UATHelper: Packaging (Windows): RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2025.06.04-22.09.23:700][ 66]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: false, Async Post Load: false
+[2025.06.04-22.09.23:744][ 68]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Initialized
+[2025.06.04-22.09.23:909][ 77]UATHelper: Packaging (Windows): LogHAL: Display: Platform has ~ 8 GB [8350539776 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.06.04-22.09.23:964][ 79]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.06.04-22.09.23:964][ 79]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.06.04-22.09.23:964][ 79]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.06.04-22.09.23:964][ 79]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.06.04-22.09.23:964][ 79]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.06.04-22.09.23:964][ 79]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.06.04-22.09.23:964][ 79]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2025.06.04-22.09.23:975][ 80]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.06.04-22.09.23:975][ 80]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.06.04-22.09.24:040][ 83]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.06.04-22.09.24:073][ 85]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.06.04-22.09.24:073][ 85]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.06.04-22.09.24:105][ 87]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.06.04-22.09.24:105][ 87]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.06.04-22.09.24:105][ 87]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.06.04-22.09.24:105][ 87]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.06.04-22.09.24:149][ 89]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.06.04-22.09.24:149][ 89]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.06.04-22.09.24:149][ 89]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.06.04-22.09.24:182][ 91]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.06.04-22.09.24:182][ 91]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.06.04-22.09.24:182][ 91]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.06.04-22.09.24:182][ 91]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.06.04-22.09.24:215][ 92]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.06.04-22.09.24:226][ 93]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.06.04-22.09.24:259][ 95]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.06.04-22.09.24:259][ 95]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.06.04-22.09.24:259][ 95]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.06.04-22.09.24:259][ 95]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.06.04-22.09.24:259][ 95]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.06.04-22.09.24:281][ 96]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.06.04-22.09.25:418][155]UATHelper: Packaging (Windows): LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.06.04-22.09.25:517][160]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.06.04-22.09.25:539][161]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1559 MiB)
+[2025.06.04-22.09.25:550][162]UATHelper: Packaging (Windows): LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.06.04-22.09.25:561][162]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.06.04-22.09.25:572][163]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: C:/Users/Usuari/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.15ms. RandomReadSpeed=172.58MBs, RandomWriteSpeed=289.55MBs. Assigned SpeedClass 'Local'
+[2025.06.04-22.09.25:572][163]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Using Local Shader Compiler with 5 workers.
+[2025.06.04-22.09.25:572][163]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.06.04-22.09.27:738][272]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.06.04-22.09.27:738][272]UATHelper: Packaging (Windows): LogAssetRegistry: Display: AssetDataGatherer spent 0.001s loading caches ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/CachedAssetRegistry_*.bin.
+[2025.06.04-22.09.28:132][292]UATHelper: Packaging (Windows): LogEditorDomain: Display: EditorDomain is Disabled
+[2025.06.04-22.09.28:187][295]UATHelper: Packaging (Windows): LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.04-22.09.28:187][295]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.06.04-22.09.28:231][297]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.06.04-22.09.28:275][300]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.06.04-22.09.28:275][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:275][300]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 8 to allow recursive sync load to finish
+[2025.06.04-22.09.28:275][300]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:275][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 9 to allow recursive sync load to finish
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 10 to allow recursive sync load to finish
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 11 to allow recursive sync load to finish
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 13 to allow recursive sync load to finish
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 14 to allow recursive sync load to finish
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.09.28:286][300]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 16 to allow recursive sync load to finish
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 17 to allow recursive sync load to finish
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 19 to allow recursive sync load to finish
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 20 to allow recursive sync load to finish
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDiffuse with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 22 to allow recursive sync load to finish
+[2025.06.04-22.09.28:297][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 23 to allow recursive sync load to finish
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 21 to allow recursive sync load to finish
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 24 to allow recursive sync load to finish
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 18 to allow recursive sync load to finish
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:308][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 25 to allow recursive sync load to finish
+[2025.06.04-22.09.28:309][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.09.28:309][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 15 to allow recursive sync load to finish
+[2025.06.04-22.09.28:309][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.09.28:309][301]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:309][301]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 26 to allow recursive sync load to finish
+[2025.06.04-22.09.28:309][301]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_M with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_N with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 12 to allow recursive sync load to finish
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 27 to allow recursive sync load to finish
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.06.04-22.09.28:319][302]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.06.04-22.09.28:483][310]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.06.04-22.09.28:483][310]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.06.04-22.09.28:483][310]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.06.04-22.09.28:483][310]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.06.04-22.09.28:966][335]UATHelper: Packaging (Windows): LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.06.04-22.09.28:966][335]UATHelper: Packaging (Windows): LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.06.04-22.09.29:350][355]UATHelper: Packaging (Windows): LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.06.04-22.09.29:361][355]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.06.04-22.09.30:596][419]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 10.510 ms
+[2025.06.04-22.09.30:607][419]UATHelper: Packaging (Windows): LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.06.04-22.09.32:992][541]UATHelper: Packaging (Windows): LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.06.04-22.09.32:992][541]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.04-22.09.34:339][610]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.04-22.09.34:339][610]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36273 public script object entries (983.71 KB)
+[2025.06.04-22.09.34:449][616]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.06.04-22.09.36:080][698]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): LogCook: Display: CookSettings for Memory:
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): 	MemoryMaxUsedVirtual 0MiB
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): 	MemoryMaxUsedPhysical 0MiB
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): 	MemoryMinFreeVirtual 2048MiB
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): 	MemoryMinFreePhysical 2048MiB
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): 	MemoryTriggerGCAtPressureLevel None
+[2025.06.04-22.09.36:551][722]UATHelper: Packaging (Windows): 	UseSoftGC true (5/10)
+[2025.06.04-22.09.36:977][744]UATHelper: Packaging (Windows): LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+[2025.06.04-22.09.37:053][748]UATHelper: Packaging (Windows): LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.06.04-22.09.37:064][748]UATHelper: Packaging (Windows): LogEditorDomain: Display: Cycle detected in parents of class /Script/LiveLinkGraphNode.K2Node_EvaluateLiveLinkFrameWithSpecificRole. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.06.04-22.09.37:075][749]UATHelper: Packaging (Windows): LogZenStore: Display: Establishing oplog 'TheProject.ec85991e/EditorDomain'
+[2025.06.04-22.09.37:075][749]UATHelper: Packaging (Windows): LogZenStore: Display: Zen project 'TheProject.ec85991e' already exists
+[2025.06.04-22.09.37:086][749]UATHelper: Packaging (Windows): LogZenStore: Display: Zen oplog 'TheProject.ec85991e/EditorDomain' already exists
+[2025.06.04-22.09.37:437][767]UATHelper: Packaging (Windows): LogCook: Display: Waiting for Asset Registry
+[2025.06.04-22.09.37:470][769]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache written as 36.5 MiB to ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/CachedAssetRegistry_*.bin
+[2025.06.04-22.09.37:646][777]UATHelper: Packaging (Windows): LogCook: Display: FULL COOK: Neither -iterative nor -cookincremental were specified. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+[2025.06.04-22.09.37:646][777]UATHelper: Packaging (Windows): LogCook: Display: Sandbox cleanup took 0.101 seconds for platforms Windows
+[2025.06.04-22.12.21:544][ 92]UATHelper: Packaging (Windows): LogCook: Display: Compiling global changed shaders for platform 'Windows'
+[2025.06.04-22.12.33:428][127]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1687.236816
+[2025.06.04-22.12.34:425][130]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.04-22.12.34:426][130]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1687.903320, Update Interval: 314.035461
+[2025.06.04-22.14.28:128][936]LogProjectBrowser: Looking for projects...
+[2025.06.04-22.14.28:128][936]LogProjectBrowser: Found Engine Installation "5.5"(C:/Program Files/Epic Games/UE_5.5)
+[2025.06.04-22.14.28:128][936]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.5
+[2025.06.04-22.14.28:128][936]LogDesktopPlatform: Looking for directories to scan from : C:/Users/Usuari/AppData/Local/UnrealEngine/5.5/Saved/Config/WindowsEditor
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Searching for previously created project directories...
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found directory: "C:/Users/Usuari/Documents/Unreal Projects"
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5/TheProject.uproject",LastOpenTime=2025.05.14-15.11.16)" in recently opened files
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal Projects/MyProject/MyProject.uproject",LastOpenTime=2025.05.14-15.16.34)" in recently opened files
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 3/TheProject.uproject",LastOpenTime=2025.05.15-17.22.47)" in recently opened files
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2/TheProject.uproject",LastOpenTime=2025.05.18-16.46.55)" in recently opened files
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 4/TheProject.uproject",LastOpenTime=2025.06.03-17.02.23)" in recently opened files
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject",LastOpenTime=2025.06.04-22.09.34)" in recently opened files
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Found project "C:/Users/Usuari/Documents/Unreal Projects/MyProject/MyProject.uproject" in previously created project directory
+[2025.06.04-22.14.28:132][936]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2025.06.04-22.14.28:134][936]LogProjectBrowser: Enumerating Launcher Sample Projects...
+[2025.06.04-22.14.30:480][ 43]LogSlate: Window 'New Project' being destroyed
+[2025.06.04-22.14.49:186][ 43]LogProjectBrowser: Looking for projects...
+[2025.06.04-22.14.49:186][ 43]LogProjectBrowser: Found Engine Installation "5.5"(C:/Program Files/Epic Games/UE_5.5)
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Enumerating Projects From Engine Ver: 5.5
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Looking for directories to scan from : C:/Users/Usuari/AppData/Local/UnrealEngine/5.5/Saved/Config/WindowsEditor
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Searching for previously created project directories...
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found directory: "C:/Users/Usuari/Documents/Unreal Projects"
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5/TheProject.uproject",LastOpenTime=2025.05.14-15.11.16)" in recently opened files
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal Projects/MyProject/MyProject.uproject",LastOpenTime=2025.05.14-15.16.34)" in recently opened files
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 3/TheProject.uproject",LastOpenTime=2025.05.15-17.22.47)" in recently opened files
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2/TheProject.uproject",LastOpenTime=2025.05.18-16.46.55)" in recently opened files
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 4/TheProject.uproject",LastOpenTime=2025.06.03-17.02.23)" in recently opened files
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found project "(ProjectName="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject",LastOpenTime=2025.06.04-22.09.34)" in recently opened files
+[2025.06.04-22.14.49:186][ 43]LogDesktopPlatform: Found project "C:/Users/Usuari/Documents/Unreal Projects/MyProject/MyProject.uproject" in previously created project directory
+[2025.06.04-22.14.49:187][ 43]LogDesktopPlatform: Searching for projects in .uprojectdirs
+[2025.06.04-22.14.49:187][ 43]LogProjectBrowser: Enumerating Launcher Sample Projects...
+[2025.06.04-22.14.51:198][147]LogSlate: Window 'Open Project' being destroyed
+[2025.06.04-22.15.03:763][754]LogUObjectHash: Compacting FUObjectHashTables data took  14.16ms
+[2025.06.04-22.15.10:504][754]LogTurnkeySupport: Project does not require temp target
+[2025.06.04-22.15.10:510][754]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame.target
+[2025.06.04-22.15.10:530][754]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=56199  -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5" -clientconfig=Development" -nocompile -nocompileuat ]
+[2025.06.04-22.15.10:586][754]UATHelper: Packaging (Windows): Running AutomationTool...
+[2025.06.04-22.15.10:696][758]UATHelper: Packaging (Windows): Using bundled DotNet SDK version: 8.0.300
+[2025.06.04-22.15.10:893][768]UATHelper: Packaging (Windows): Starting AutomationTool...
+[2025.06.04-22.15.10:926][769]UATHelper: Packaging (Windows): Parsing command line: -ScriptsForProject="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=56199 -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/TheProject.uproject" -unrealexe="C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5" -clientconfig=Development -nocompile -nocompileuat
+[2025.06.04-22.15.11:068][777]UATHelper: Packaging (Windows): Initializing script modules...
+[2025.06.04-22.15.11:517][801]UATHelper: Packaging (Windows): Total script module initialization time: 0.44 s.
+[2025.06.04-22.15.11:594][806]UATHelper: Packaging (Windows): Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+[2025.06.04-22.15.11:857][806]UATHelper: Packaging (Windows): Executing commands...
+[2025.06.04-22.15.11:933][807]UATHelper: Packaging (Windows): Installed Sdk validity:
+[2025.06.04-22.15.11:933][807]UATHelper: Packaging (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2025.06.04-22.15.11:933][807]UATHelper: Packaging (Windows): Scanning for envvar changes...
+[2025.06.04-22.15.11:933][807]UATHelper: Packaging (Windows): ... done! 
+[2025.06.04-22.15.11:933][807]UATHelper: Packaging (Windows): Cleaning Temp Paths...
+[2025.06.04-22.15.11:933][807]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2025.06.04-22.15.11:933][807]UATHelper: Packaging (Windows): Setting up ProjectParams for C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject
+[2025.06.04-22.15.12:492][808]UATHelper: Packaging (Windows): ********** COOK COMMAND STARTED **********
+[2025.06.04-22.15.12:492][808]UATHelper: Packaging (Windows): Running UnrealEditor Cook for project C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject
+[2025.06.04-22.15.12:503][808]UATHelper: Packaging (Windows): Commandlet log file is C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.06.05-00.15.12.txt
+[2025.06.04-22.15.12:514][808]UATHelper: Packaging (Windows): Running: C:\Program Files\Epic Games\UE_5.5\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.06.05-00.15.12.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2025.06.04-22.15.13:808][812]UATHelper: Packaging (Windows): LogWindows: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": El parámetro no es correcto.
+[2025.06.04-22.15.13:808][812]UATHelper: Packaging (Windows): LogInit: Display: Running engine for game: TheProject
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogTrace: Display: Display Control listening on port 1985
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : config="Development"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-40574608"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-40574608+++UE5+Release-5.5"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.5854] "
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : asan="0"
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\Usuari\Documents\Unreal\Unreal_Character\TheProject 5.5 - 2 5.5 5.5\TheProject.uproject" -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.5\Engine\Programs\AutomationTool\Saved\Cook-2025.06.05-00.15.12.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2025.06.04-22.15.13:819][812]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : loginid="7c6a082048c79b2505a854a6d0b8717b"
+[2025.06.04-22.15.13:908][812]PackagingResults: Warning: Failed to set completion port for job object "UE.ShaderCompileWorker.JobGroup": El parámetro no es correcto.
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : llm="0"
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading Android ini files took 0.05 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading IOS ini files took 0.05 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading LinuxArm64 ini files took 0.07 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading Linux ini files took 0.08 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading Mac ini files took 0.04 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache read as 36.5 MiB from ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/CachedAssetRegistry_0.bin
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading TVOS ini files took 0.06 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading Unix ini files took 0.05 seconds
+[2025.06.04-22.15.14:300][814]UATHelper: Packaging (Windows): LogConfig: Display: Loading Windows ini files took 0.05 seconds
+[2025.06.04-22.15.15:092][816]UATHelper: Packaging (Windows): LogConfig: Display: Loading VisionOS ini files took 0.04 seconds
+[2025.06.04-22.15.15:124][816]UATHelper: Packaging (Windows): RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2025.06.04-22.15.15:223][816]UATHelper: Packaging (Windows): LogStudioTelemetry: Display: Starting StudioTelemetry Module
+[2025.06.04-22.15.15:223][816]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Created: Event Driven Loader: false, Async Loading Thread: false, Async Post Load: false
+[2025.06.04-22.15.15:267][817]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Initialized
+[2025.06.04-22.15.15:366][817]UATHelper: Packaging (Windows): LogHAL: Display: Platform has ~ 8 GB [8350539776 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.12
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.06.04-22.15.15:421][817]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.06.04-22.15.15:476][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.06.04-22.15.15:508][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.06.04-22.15.15:508][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.06.04-22.15.15:530][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.06.04-22.15.15:530][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2025.06.04-22.15.15:530][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2025.06.04-22.15.15:530][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2025.06.04-22.15.15:552][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2025.06.04-22.15.15:552][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2025.06.04-22.15.15:552][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2025.06.04-22.15.15:574][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2025.06.04-22.15.15:574][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.06.04-22.15.15:574][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.06.04-22.15.15:574][817]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.06.04-22.15.15:596][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.06.04-22.15.15:596][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.06.04-22.15.15:628][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.06.04-22.15.15:628][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2025.06.04-22.15.15:628][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2025.06.04-22.15.15:628][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2025.06.04-22.15.15:628][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2025.06.04-22.15.15:639][818]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Building Assets For Windows
+[2025.06.04-22.15.16:472][820]UATHelper: Packaging (Windows): LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2025.06.04-22.15.16:548][820]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.06.04-22.15.16:559][820]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1559 MiB)
+[2025.06.04-22.15.16:570][820]UATHelper: Packaging (Windows): LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.06.04-22.15.16:581][820]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.06.04-22.15.16:592][821]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: C:/Users/Usuari/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.03ms. RandomReadSpeed=158.47MBs, RandomWriteSpeed=144.41MBs. Assigned SpeedClass 'Local'
+[2025.06.04-22.15.16:592][821]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Using Local Shader Compiler with 5 workers.
+[2025.06.04-22.15.16:592][821]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2025.06.04-22.15.17:988][825]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.06.04-22.15.17:988][825]UATHelper: Packaging (Windows): LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/CachedAssetRegistry_*.bin.
+[2025.06.04-22.15.18:270][826]UATHelper: Packaging (Windows): LogEditorDomain: Display: EditorDomain is Disabled
+[2025.06.04-22.15.18:303][826]UATHelper: Packaging (Windows): LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.04-22.15.18:303][826]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.06.04-22.15.18:335][826]UATHelper: Packaging (Windows): LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 8 to allow recursive sync load to finish
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 9 to allow recursive sync load to finish
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 10 to allow recursive sync load to finish
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 11 to allow recursive sync load to finish
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 13 to allow recursive sync load to finish
+[2025.06.04-22.15.18:379][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 14 to allow recursive sync load to finish
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 16 to allow recursive sync load to finish
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 17 to allow recursive sync load to finish
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 19 to allow recursive sync load to finish
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 20 to allow recursive sync load to finish
+[2025.06.04-22.15.18:390][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDiffuse with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 22 to allow recursive sync load to finish
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 23 to allow recursive sync load to finish
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 21 to allow recursive sync load to finish
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 24 to allow recursive sync load to finish
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 18 to allow recursive sync load to finish
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 25 to allow recursive sync load to finish
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2025.06.04-22.15.18:401][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 15 to allow recursive sync load to finish
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 26 to allow recursive sync load to finish
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_M with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/T_Default_Material_Grid_N with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 12 to allow recursive sync load to finish
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 27 to allow recursive sync load to finish
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/WorldGridMaterial with requester package /Engine/EngineMaterials/DefaultTextMaterialOpaque
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.06.04-22.15.18:412][826]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.06.04-22.15.18:554][826]UATHelper: Packaging (Windows): LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.06.04-22.15.18:554][826]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.06.04-22.15.18:554][826]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.06.04-22.15.18:554][826]UATHelper: Packaging (Windows): LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.06.04-22.15.18:944][828]UATHelper: Packaging (Windows): LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.06.04-22.15.18:944][828]UATHelper: Packaging (Windows): LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.06.04-22.15.19:205][828]UATHelper: Packaging (Windows): LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.06.04-22.15.19:216][828]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.06.04-22.15.20:111][831]UATHelper: Packaging (Windows): LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 5.438 ms
+[2025.06.04-22.15.20:111][831]UATHelper: Packaging (Windows): LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.06.04-22.15.21:579][835]UATHelper: Packaging (Windows): LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.06.04-22.15.21:579][835]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.04-22.15.22:792][839]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.04-22.15.22:792][839]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36273 public script object entries (983.71 KB)
+[2025.06.04-22.15.22:879][839]UATHelper: Packaging (Windows): LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.06.04-22.15.24:147][843]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): LogCook: Display: CookSettings for Memory:
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): 	MemoryMaxUsedVirtual 0MiB
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): 	MemoryMaxUsedPhysical 0MiB
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): 	MemoryMinFreeVirtual 2048MiB
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): 	MemoryMinFreePhysical 2048MiB
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): 	MemoryTriggerGCAtPressureLevel None
+[2025.06.04-22.15.24:541][844]UATHelper: Packaging (Windows): 	UseSoftGC true (5/10)
+[2025.06.04-22.15.24:574][844]UATHelper: Packaging (Windows): LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+[2025.06.04-22.15.24:824][845]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.06.04-22.15.24:878][845]UATHelper: Packaging (Windows): LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.06.04-22.15.24:889][845]UATHelper: Packaging (Windows): LogEditorDomain: Display: Cycle detected in parents of class /Script/LiveLinkGraphNode.K2Node_EvaluateLiveLinkFrameWithSpecificRole. Allow flags for editordomain and iterative cooking will be invalid.
+[2025.06.04-22.15.24:889][845]UATHelper: Packaging (Windows): LogZenStore: Display: Establishing oplog 'TheProject.ec85991e/EditorDomain'
+[2025.06.04-22.15.24:889][845]UATHelper: Packaging (Windows): LogZenStore: Display: Zen project 'TheProject.ec85991e' already exists
+[2025.06.04-22.15.24:900][845]UATHelper: Packaging (Windows): LogZenStore: Display: Zen oplog 'TheProject.ec85991e/EditorDomain' already exists
+[2025.06.04-22.15.25:074][846]UATHelper: Packaging (Windows): LogCook: Display: Waiting for Asset Registry
+[2025.06.04-22.15.25:095][846]UATHelper: Packaging (Windows): LogAssetRegistry: Display: Asset registry cache written as 0.0 MiB to ../../../../../../Users/Usuari/Documents/Unreal/Unreal_Character/TheProject 5.5 - 2 5.5 5.5/Intermediate/CachedAssetRegistry_*.bin
+[2025.06.04-22.15.25:227][846]UATHelper: Packaging (Windows): LogCook: Display: FULL COOK: Neither -iterative nor -cookincremental were specified. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+[2025.06.04-22.15.25:227][846]UATHelper: Packaging (Windows): LogCook: Display: Sandbox cleanup took 0.072 seconds for platforms Windows
+[2025.06.04-22.15.45:123][ 43]UATHelper: Packaging (Windows): LogCook: Display: Compiling global changed shaders for platform 'Windows'
+[2025.06.04-22.15.46:307][ 96]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2025.06.04-22.15.46:312][ 96]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2025.06.04-22.15.46:388][ 96]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.15.46:395][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.15.47:457][ 96]LogUObjectHash: Compacting FUObjectHashTables data took  17.81ms
+[2025.06.04-22.18.35:679][610]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2049.484131
+[2025.06.04-22.18.35:835][619]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.04-22.18.35:836][620]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2049.625488, Update Interval: 333.143097
+[2025.06.04-22.21.03:910][ 90]UATHelper: Packaging (Windows): LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks() took too long (0.722 seconds, threshold is 0.300 s), will parallelize next time.
+[2025.06.04-22.21.05:825][ 96]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 53, format PCD3D_SM6) compile time exceeded threshold (79.403s)
+[2025.06.04-22.21.09:253][106]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 49, format PCD3D_SM6) compile time exceeded threshold (36.740s)
+[2025.06.04-22.21.12:589][116]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 58, format PCD3D_SM6) compile time exceeded threshold (48.138s)
+[2025.06.04-22.22.37:292][653]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 52, format PCD3D_SM6) compile time exceeded threshold (78.774s)
+[2025.06.04-22.22.37:292][653]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 41, format PCD3D_SM6) compile time exceeded threshold (32.361s)
+[2025.06.04-22.22.37:292][653]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Job FTSRRejectShadingCS(permutation 48, format PCD3D_SM6) compile time exceeded threshold (31.837s)
+[2025.06.04-22.23.18:399][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.06.04-22.23.18:469][700]LogStall: Shutdown...
+[2025.06.04-22.23.18:470][700]LogStall: Shutdown complete.
+[2025.06.04-22.23.18:515][700]LogSlate: Window 'TheProject - Unreal Editor' being destroyed
+[2025.06.04-22.23.18:837][700]Cmd: QUIT_EDITOR
+[2025.06.04-22.23.18:838][700]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.06.04-22.23.18:851][701]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.06.04-22.23.18:855][701]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.06.04-22.23.18:856][701]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.06.04-22.23.18:892][701]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.23.18:902][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.23.18:903][701]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.06.04-22.23.18:974][701]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.06.04-22.23.18:988][701]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.06.04-22.23.19:053][701]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.23.19:053][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.23.19:057][701]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.23.19:062][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.23.19:065][701]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.23.19:065][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.23.19:068][701]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.23.19:068][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.23.19:073][701]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.23.19:073][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.23.19:076][701]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.06.04-22.23.19:079][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.04-22.23.19:099][701]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.06.04-22.23.19:108][701]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.06.04-22.23.19:108][701]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.06.04-22.23.19:108][701]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.06.04-22.23.19:771][701]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.06.04-22.23.19:771][701]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.06.04-22.23.19:771][701]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2025.06.04-22.23.19:772][701]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.06.04-22.23.19:774][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.06.04-22.23.19:800][701]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.06.04-22.23.19:887][701]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.06.04-22.23.19:888][701]LogAudio: Display: Audio Device Manager Shutdown
+[2025.06.04-22.23.19:889][701]LogWindowsTextInputMethodSystem: Activated input method: Español (España, internacional) - (Keyboard).
+[2025.06.04-22.23.19:898][701]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.06.04-22.23.19:899][701]LogExit: Preparing to exit.
+[2025.06.04-22.23.20:022][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.06.04-22.23.20:027][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:029][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:038][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:039][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:039][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:039][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:040][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:041][701]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:041][701]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.06.04-22.23.20:711][701]LogEditorDataStorage: Deinitializing
+[2025.06.04-22.23.21:306][701]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.06.04-22.23.21:441][701]LogExit: Editor shut down
+[2025.06.04-22.23.21:462][701]LogExit: Transaction tracking system shut down
+[2025.06.04-22.23.22:565][701]LogExit: Object subsystem successfully closed.
+[2025.06.04-22.23.22:677][701]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.06.04-22.23.23:509][701]LogMemoryProfiler: Shutdown
+[2025.06.04-22.23.23:510][701]LogNetworkingProfiler: Shutdown
+[2025.06.04-22.23.23:510][701]LoadingProfiler: Shutdown
+[2025.06.04-22.23.23:510][701]LogTimingProfiler: Shutdown
+[2025.06.04-22.23.24:443][701]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.06.04-22.23.24:445][701]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.06.04-22.23.24:445][701]LogNFORDenoise: NFORDenoise function shutting down
+[2025.06.04-22.23.24:483][701]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.06.04-22.23.24:483][701]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8D01B085-4C61-9991-0AEE-D8AA64D36F06%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=7c6a082048c79b2505a854a6d0b8717b%7C32338aeb145d4b67a5474a2604f30093%7C491ca096-45db-4819-b588-b6701912c408&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.06.04-22.23.25:082][701]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.06.04-22.23.25:092][701]RenderDocPlugin: plugin has been unloaded.
+[2025.06.04-22.23.25:120][701]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.06.04-22.23.25:120][701]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.06.04-22.23.25:124][701]LogPakFile: Destroying PakPlatformFile
+[2025.06.04-22.23.25:423][701]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.06.04-22.23.25:452][701]LogExit: Exiting.
+[2025.06.04-22.23.25:487][701]Log file closed, 06/05/25 00:23:25
